@@ -39,7 +39,7 @@ body {
     margin: 5px 0;
 }
 
-.label-content p:last-of-type {
+.label-content p:last-child {
     text-size: 80%;
     text-align: right;
     margin: 2px 0;
