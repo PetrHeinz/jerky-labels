@@ -40,7 +40,7 @@ body {
 }
 
 .label-content p:last-child {
-    text-size: 80%;
+    font-size: 80%;
     text-align: right;
     margin: 2px 0;
 }
