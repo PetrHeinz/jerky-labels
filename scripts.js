@@ -57,8 +57,8 @@ function renderLabels() {
         const labelHeader = document.createElement('div');
         labelHeader.classList.add('label-header');
         const logo = document.createElement('img');
-        logo.src = 'https://images-assets.startupjobs.cz/LOGO/8333/abd8f2918cafe89ada050b3f670ba009.png';
-        logo.alt = 'Logo';
+        logo.src = './image.png';
+        logo.alt = 'Better Snack';
         logo.classList.add('logo');
         labelHeader.appendChild(logo);
 
@@ -69,10 +69,10 @@ function renderLabels() {
         labelName.innerText = label.name;
 
         const labelIngredients = document.createElement('p');
-        labelIngredients.innerText = "Ingredients: " + label.ingredients;
+        labelIngredients.innerText = label.ingredients;
 
         const labelDate = document.createElement('p');
-        labelDate.innerText = "Date: " + label.date;
+        labelDate.innerText = "Made on: " + label.date;
 
         const deleteButton = document.createElement('button');
         deleteButton.innerText = 'X';
