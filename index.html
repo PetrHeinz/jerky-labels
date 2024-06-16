@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerky Labels</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Customize Your Jerky Labels</h2>
+        <form id="labelForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="Jerky Name">
+
+            <label for="ingredients">Ingredients:</label>
+            <textarea id="ingredients" name="ingredients" rows="4">pork tenderloin, soy sauce, dried mushrooms, truffle oil, smoked paprika, maple syrup, Kampot white pepper, MSG</textarea>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+
+            <button type="button" onclick="addLabel()">Add Label</button>
+        </form>
+        <button onclick="printLabels()">Print Labels</button>
+    </div>
+
+    <div id="labels-container"></div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
