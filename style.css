@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.label-container {
+    width: fit-content;
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 10px;
+    page-break-inside: avoid;
+    position: relative;
+}
+
+.label-header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.label-content {
+    text-align: center;
+}
+
+.label-content h2 {
+    margin: 10px 0;
+}
+
+.label-content p {
+    margin: 5px 0;
+}
+
+.form-container {
+    width: 300px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type="text"],
+textarea,
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
