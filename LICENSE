@@ -2,6 +2,9 @@ MIT License
 
 Copyright (c) 2024 Petr Heinz
 
+This license is applicable only to code (specifically *.html, *.css, *.js),
+any images or other files are excluded from this license.
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
