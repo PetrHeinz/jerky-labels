@@ -8,8 +8,8 @@ body {
 }
 
 .label-container {
-    width: 100mm; /* For consistency in printing, setting width in mm */
     height: 40mm; /* 4cm */
+    width: 80mm; /* For consistency in printing, setting width in mm */
     border: 1px solid lightgray;
     padding: 10px;
     margin: 10px;
@@ -23,8 +23,8 @@ body {
 }
 
 .logo {
-    max-width: 30%;
     height: auto;
+    width: 35mm;
 }
 
 .label-content {
@@ -37,12 +37,13 @@ body {
 
 .label-content p {
     margin: 5px 0;
+    font-size: 14px;
 }
 
 .label-content p:last-child {
-    font-size: 80%;
     text-align: right;
     margin: 2px 0;
+    font-size: 12px;
 }
 
 .form-container {
